@@ -1,0 +1,137 @@
+*
+{   
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.main{
+    
+     width: 100%;
+     background: linear-gradient(to top , rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(00.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+    
+}
+.topbar{
+    position: fixed;
+    top: 5%;
+    margin: 0;
+    width: 1200px;
+    height: 80px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 10px rgb(0,0,0,0.6);
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+
+}
+
+.navbar{
+      
+       width: 1200px;
+       height: 75px;
+       margin: auto;  
+}
+
+
+.icon{
+    width: 300px;
+    float: left;
+    height: 90px;
+
+}
+
+.logo{
+    margin-top: 5px;
+    color: coral;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+
+.menu
+{   
+    color: ghostwhite;
+    width: 100px;
+    float: right;
+    height: 70px;
+
+}
+
+ul{ 
+    color: ghostwhite;
+    display: flex;
+    
+}
+
+ul  li{
+    list-style: none;
+    margin-top: 62px;
+    font-size: 14px;
+    color: ghostwhite;
+    
+}
+
+ul li{
+    margin-top: 5px;
+     padding-top: 25px;
+     text-decoration: none;
+     color: ghostwhite;
+     font-family: Arial;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+
+}
+ul li a{
+    color: floralwhite;
+}
+
+ul li a:hover{
+     color: coral;
+     background-color: aliceblue;
+}
+
+.content{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    color:ghostwhite;
+    transform: translate(-50%,-50%);
+}
+
+.content h1{
+    font-family:Georgia;
+    font-size: 30x;
+    left: 20%;
+    align-items: center;
+}
+
+.button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+}
+
+
+.btn{
+    border: 1px solid;
+    padding: 5px 20px;
+    color: aliceblue;
+    transition: 0.5 ease;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: coral;
+
+}
+
